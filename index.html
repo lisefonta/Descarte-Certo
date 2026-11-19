@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Descarte Certo: aprenda a separar resíduos e descarte com responsabilidade.">
+  <title>Descarte Certo | Seu guia de descarte</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <header class="topo"><div class="container barra"><a class="marca" href="#inicio" aria-label="Descarte Certo, início">♻ Descarte<span>Certo</span></a><nav aria-label="Menu principal"><a href="#guia">Guia</a><a href="#quiz">Quiz</a><a href="#sobre">Sobre</a></nav></div></header>
+  <main id="conteudo">
+    <section class="hero" id="inicio"><div class="container hero-grid"><div><span class="etiqueta">🌎 Pequenas ações, grande impacto</span><h1>Seu lixo tem um <em>destino melhor.</em></h1><p>Descubra como separar materiais do dia a dia, reduzir desperdícios e cuidar do planeta com atitudes simples.</p><a class="botao" href="#guia">Explorar guia de descarte →</a></div><div class="hero-arte" aria-hidden="true"><div class="circulo">♻️</div><div class="flutuante f1">🌱 Reutilize</div><div class="flutuante f2">💚 Recicle</div></div></div></section>
+    <section class="secao" id="guia"><div class="container"><div class="secao-cabecalho"><span class="sobretitulo">GUIA PRÁTICO</span><h2>O que você quer descartar?</h2><p>Selecione uma categoria ou pesquise pelo nome do material.</p></div><div class="filtros" role="group" aria-label="Filtrar materiais"><button class="filtro ativo" data-filter="todos" aria-pressed="true">Todos</button><button class="filtro" data-filter="reciclavel" aria-pressed="false">Recicláveis</button><button class="filtro" data-filter="especial" aria-pressed="false">Especiais</button><button class="filtro" data-filter="organico" aria-pressed="false">Orgânicos</button></div><label class="rotulo-busca" for="busca">Buscar material</label><input id="busca" type="search" placeholder="Ex.: pilhas, vidro, óleo..." autocomplete="off"><div class="cards" id="cards"></div><p id="sem-resultados" class="vazio" hidden>Nenhum material encontrado. Tente outra busca.</p><p class="aviso">⚠️ As orientações são gerais. Consulte as regras da coleta seletiva e os pontos de entrega da sua cidade. Materiais contaminados ou perigosos podem exigir tratamento específico.</p></div></section>
+    <section class="secao destaque" id="quiz"><div class="container quiz-grid"><div><span class="sobretitulo">APRENDA BRINCANDO</span><h2>Teste seus conhecimentos!</h2><p>Responda a 5 perguntas rápidas e descubra o quanto você sabe sobre descarte consciente.</p></div><div class="quiz-box"><div class="quiz-topo"><span id="progresso">Pergunta 1 de 5</span><span id="placar">0 acertos</span></div><div class="barra-progresso"><div id="barra-progresso"></div></div><h3 id="pergunta"></h3><div id="opcoes" class="opcoes"></div><p id="feedback" role="status" aria-live="polite"></p><button id="proxima" class="botao" hidden>Próxima pergunta →</button><button id="reiniciar" class="botao" hidden>Refazer quiz ↻</button></div></div></section>
+    <section class="secao" id="sobre"><div class="container sobre"><span class="sobretitulo">NOSSO PROPÓSITO</span><h2>Descarte consciente começa com informação.</h2><p>O Descarte Certo é um projeto educacional que reúne orientações simples para ajudar pessoas a reconhecer resíduos recicláveis, orgânicos e de descarte especial.</p><p>Projeto acadêmico demonstrativo. Não apresenta endereços de pontos de coleta nem substitui as orientações do serviço municipal de limpeza urbana.</p></div></section>
+  </main>
+  <footer><div class="container rodape"><strong>♻ Descarte Certo</strong><span>Projeto acadêmico • Educação ambiental e sustentabilidade</span><a href="#inicio">Voltar ao topo ↑</a></div></footer>
+</body>
+</html>
